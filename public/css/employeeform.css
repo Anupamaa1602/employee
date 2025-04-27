@@ -1,0 +1,60 @@
+.navbar {
+  background: linear-gradient(90deg, #f9ccf4, #d3bafc);
+
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    padding: 1rem 2rem;
+  }
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #0d6efd;
+  }
+  .navbar-nav .nav-link {
+    color: #495057;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+
+
+
+  .form-container {
+    margin-left: 700px;
+    max-width: 400px;
+margin-top: 30px;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(8px); 
+    color: white; 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); 
+
+    border-radius: 1rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  }
+  body {
+    background-image: url('./images/body.webp');
+    background-size: cover;
+  }
+  .form-control {
+    
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(6px); 
+    color: white; 
+    border: 1px solid rgba(255, 255, 255, 0.4); 
+    border-radius: 10px;
+  }
+  .btn-outline{
+    color: white;
+    border-color: white;
+
+}
+.btn-outline:hover{
+    background-color: gray;
+    color: white;
+}
+.data{
+margin-top: 200px;
+    float: left;
+}
